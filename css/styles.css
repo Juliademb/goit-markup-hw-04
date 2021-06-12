@@ -6,6 +6,7 @@
   --background-color: #2f303a;
   --second-background: #f5f4fa;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --items-color: #afb1b8;
 }
 
 body {
@@ -414,7 +415,11 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.companies {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
 .company-icons {
   display: block;
   width: 170px;
@@ -423,7 +428,4 @@ ul {
   border: 1px solid var(--items-color);
   border-radius: 4px;
   fill: var(--items-color);
-}
-.company-icons svg {
-  fill: #afb1b8;
 }
