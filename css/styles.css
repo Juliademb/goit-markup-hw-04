@@ -429,3 +429,7 @@ ul {
   border-radius: 4px;
   fill: var(--items-color);
 }
+.company-icons:hover,
+.company-icons:focus {
+  fill: var(--accent-color);
+}
