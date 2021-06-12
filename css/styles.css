@@ -261,6 +261,14 @@ ul {
 /* секция HERO */
 .hero {
   background-color: var(--background-color);
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(#2f303a);
+  background-image: url(../imades/herobg.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .hero .conteiner {
@@ -338,6 +346,8 @@ ul {
 }
 .images-list {
   display: flex;
+  justify-content: center;
+
   margin-top: 50px;
   padding-left: 0px;
 }
