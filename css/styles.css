@@ -261,12 +261,18 @@ ul {
 /* секция HERO */
 .hero {
   background-color: var(--background-color);
+}
+.overlay {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(#2f303a);
-  background-image: url(../imades/herobg.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../imades/herobg.jpg);
   background-size: cover;
   background-position: center;
 }
