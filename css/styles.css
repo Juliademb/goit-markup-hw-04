@@ -409,3 +409,21 @@ ul {
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
 }
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.company-icons {
+  display: block;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid var(--items-color);
+  border-radius: 4px;
+  fill: var(--items-color);
+}
+.company-icons svg {
+  fill: #afb1b8;
+}
