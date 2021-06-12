@@ -432,4 +432,5 @@ ul {
 .company-icons svg:hover,
 .company-icons svg:focus {
   fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
